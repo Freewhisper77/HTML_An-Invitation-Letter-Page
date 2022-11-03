@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>HTML5学习邀请函</title>
-        <link href="./css/style.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -26,13 +26,22 @@
         <div id="container">
             <h1>Lets' learn HTML5</h1>
             <p>发挥您的美感与想象力，探索Web开发的无限可能性，现邀您一同踏上HTML5的学习之旅</p>
-            <a href="https://github.com/Freewhisper77/HTML_learning">邀您参加</a>
+            <a href="https://github.com/Freewhisper77/HTML_learning" id="enroll">邀您参加</a>
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script type="text/javascript">
+            const inviteBtn = document.getElementById("enroll");
+            inviteBtn.onclick = function (e) {
+                e.preventDefault();
+                inviteBtn.innerText = "报名成功";
+                inviteBtn.style.background = "green";
+                inviteBtn.style.borderColor = "green";
+            }
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
