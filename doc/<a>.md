@@ -33,6 +33,7 @@ HTML `<header>` 元素用于展示介绍性内容，通常包含一组介绍性�
 ## `<div>`
 
 【用法】通常都要用**class**或者**id属性**对其归类（方便在CSS中对其增添样式）
+>给**id**类型的选择器加CSS样式时，需要用前缀的#来定义
 
 现在回到我们刚刚写的例子,我们给它加上`<div>`
 ![](../../../../../../../var/folders/rm/z0rz7xz94h5cydphd9bp71qr0000gn/T/TemporaryItems/NSIRD_screencaptureui_AAmss4/截屏2022-11-03 09.29.42.png)
