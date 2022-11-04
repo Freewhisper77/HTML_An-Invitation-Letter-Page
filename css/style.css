@@ -40,3 +40,7 @@ a {
     padding: 10px 100px;
     text-decoration: none;
 }
+hr {
+    border: none;
+    border-top: 3px double #333;
+}
